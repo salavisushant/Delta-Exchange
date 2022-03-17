@@ -1,0 +1,48 @@
+.memberbox{
+    margin-top:8%;
+    margin-left: 25%;
+    width:50%;
+    height:500px;
+    box-shadow: 0px 1px 30px 7px #8d8a8a;
+}
+
+.memberbox > input{
+    width:90% ;
+    height:25px;
+    margin-left: 5%;
+}
+
+.memberbox > .selectbtn{
+    width:90% ;
+    height:30px;
+    margin-left: 5%;
+}
+
+label>p{
+    margin-left: 5%;
+    font-size:20px;
+    font-weight:700;
+    color:#05595B;
+}
+
+.memberbox>button{
+    margin-left: 30%; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width:40%;
+    height:35px;
+    font-size:1.7vw;
+    border:none;
+    color:#fff;
+    border-color:#4e6096;
+    background-color:#332FD0;
+}
+
+.memberbox>button:hover {
+    border-radius: 15px;
+}
+
+h1{ 
+    text-align:center;
+    color: #332FD0;
+}

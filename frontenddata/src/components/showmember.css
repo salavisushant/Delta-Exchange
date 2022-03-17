@@ -1,0 +1,88 @@
+.table {
+  width: 80%;
+  margin: auto;
+}
+.tablehead {
+  background-color: #caf0f8;
+  border: 2px solid black;
+  box-shadow: 0px 5px 28px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 5px 28px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 28px 0px rgba(0, 0, 0, 0.75);
+}
+.tablehead > th {
+  font-size: 18px;
+  border: 2px solid black;
+}
+.tablerows {
+  border: 1px solid black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.tablerows > td {
+  width: 1%;
+  font-size: 20px;
+  border: 1px solid black;
+}
+.img {
+  width: 190px;
+  height: 100px;
+}
+
+.buttonof {
+  display: flex;
+  margin-left: 73%;
+  gap: 5%;
+  margin-top: 10px;
+}
+.profile {
+  width: 35%;
+  border-radius: 10px;
+}
+.moreinfo {
+  padding: 20px;
+  width: 76%;
+  margin-left: 12%;
+  display: flex;
+  gap: 5%;
+  box-shadow: 0px 5px 28px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 5px 28px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 28px 0px rgba(0, 0, 0, 0.75);
+}
+.oddcol {
+  background-color: pink;
+}
+.group {
+  display: none;
+}
+
+.buttonof > button {
+  width: 80px;
+  height:30px;
+  border:2px solid #FFFFFF;
+  background-color:#2B7DE9;
+  color: #fff;
+}
+
+.headDiv{
+  display:flex;
+  /* justify-content:space-between; */
+}
+
+.btn>button{
+  margin-left:8%;
+  width:100%;
+  height: 40px;
+  margin-top:42px;
+  font-size: 18px;
+  font-weight:600;
+  border:2px solid #fff;
+  background-color: #2B7DE9;
+  color: #FFFF;
+  border-radius:20px;
+}
+
+.headDiv>p{
+  font-size:35px;
+  font-weight:700;
+}
