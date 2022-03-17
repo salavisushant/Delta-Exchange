@@ -25,11 +25,10 @@ export const Navbar=()=> {
     <>
     <Div>
         <img style={{width: '6%', height: '70px',marginLeft:"4%"}} src="https://cdn1.iconfinder.com/data/icons/customer-service-3/512/memberList-512.png" alt=""/>
-        <Link style={{marginLeft:"10%",fontWeight:"bold",fontSize:"17px",textDecoration:"none",color: '#282C3F'}} to="/">Home</Link>
-        <Link style={{marginLeft:"10%",fontWeight: "bold", fontSize: "17px", textDecoration: "none",color: '#282C3F' }} to="/list">Members List</Link>
-        <Link style={{marginLeft:"10%", fontWeight: "bold", fontSize: "17px", textDecoration: "none",color: '#282C3F'}} to="/members">Add Members</Link>
-        <Link style={{marginLeft:"10%", fontWeight: "bold", fontSize: "17px", textDecoration: "none",color: '#282C3F'}} to="/login"> Login</Link>
-        <Link style={{marginLeft:"10%", fontWeight: "bold", fontSize: "17px", textDecoration: "none",color: '#282C3F'}} to="/signup"> Sign Up</Link>
+        <Link style={{marginLeft:"13%",fontWeight: "bold", fontSize: "17px", textDecoration: "none",color: '#282C3F' }} to="/list">Members List</Link>
+        <Link style={{marginLeft:"13%", fontWeight: "bold", fontSize: "17px", textDecoration: "none",color: '#282C3F'}} to="/members">Add Members</Link>
+        <Link style={{marginLeft:"13%", fontWeight: "bold", fontSize: "17px", textDecoration: "none",color: '#282C3F'}} to="/login"> Login</Link>
+        <Link style={{marginLeft:"13%", fontWeight: "bold", fontSize: "17px", textDecoration: "none",color: '#282C3F'}} to=""> Sign Up</Link>
       </Div>
     </>
   );
