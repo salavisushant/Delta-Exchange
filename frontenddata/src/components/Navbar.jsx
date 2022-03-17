@@ -20,11 +20,15 @@ background-color:#FFFFFF;
   0 80px 60px rgba(0, 0, 0, 0.10)
 `
 
-export const Navbar=()=> {
+export const Navbar = () => {
+    const token = localStorage.getItem("email")
+    console.log(token)
+  
   return (
     <>
     <Div>
-        <img style={{width: '6%', height: '70px',marginLeft:"4%"}} src="https://cdn1.iconfinder.com/data/icons/customer-service-3/512/memberList-512.png" alt=""/>
+        <img style={{ width: '6%', height: '70px', marginLeft: "4%" }} src="https://cdn1.iconfinder.com/data/icons/customer-service-3/512/memberList-512.png" alt="" />
+        <p style={{fontWeight: "bold", fontSize: "20px", textDecoration: "none",color: '#282C3F'}}>{ token}</p>
         <Link style={{marginLeft:"13%",fontWeight: "bold", fontSize: "17px", textDecoration: "none",color: '#282C3F' }} to="/list">Members List</Link>
         <Link style={{marginLeft:"13%", fontWeight: "bold", fontSize: "17px", textDecoration: "none",color: '#282C3F'}} to="/members">Add Members</Link>
         <Link style={{marginLeft:"13%", fontWeight: "bold", fontSize: "17px", textDecoration: "none",color: '#282C3F'}} to="/login"> Login</Link>
